@@ -4,7 +4,6 @@ import Head from "next/head";
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 
 export default function MeetupDetails(props) {
-  console.log({ props });
   const { image, title, description, address } = props.meetupData;
   return (
     <>
